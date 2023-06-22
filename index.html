@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ColorGameRGB</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/345/345990.png" type="image/x-icon">
+  </head>
+  <body>
+    <h1>
+      Color Game 
+      <br>
+      <span id= "colorDisplay"> "RGB(68, 20, 99)"</span>
+      <br>
+      The Great Guessing Game
+    </h1>
+    <div id="stripe">
+      <button id="easyButton" class="button">FÁCIL</button>
+      <button id="reset" class="button">NUEVOS COLORES</button>
+      <button class="selected button" id="hardButton">DIFÍCIL</button>
+      
+    </div>
+
+    <div id="text">
+      <span id="message"
+        ><!-- Aquí va el mensaje de intentalo nuevamente o correcto -->¿Qué COLOR INDICA EL RGB?</span
+      >
+    </div>
+
+    <div class="container">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
